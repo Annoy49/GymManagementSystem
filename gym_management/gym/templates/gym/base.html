@@ -1,0 +1,22 @@
+<!-- templates/gym/base.html -->
+<html>
+<head>
+    <title>{% block title %}Gym Management System{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gym Management System</h1>
+        </header>
+
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Gym Management System</p>
+        </footer>
+    </div>
+</body>
+</html>
